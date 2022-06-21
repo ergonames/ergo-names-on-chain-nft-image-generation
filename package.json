@@ -1,0 +1,21 @@
+{
+  "name": "ergo-names-on-chain-nft-image-generation",
+  "version": "1.0.0",
+  "description": "Simple REST API for generating on chain Ergo Names NFT images in SVG format",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Ergo Names",
+  "license": "MIT",
+  "dependencies": {
+    "d3-node": "^2.2.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsdom": "^19.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
