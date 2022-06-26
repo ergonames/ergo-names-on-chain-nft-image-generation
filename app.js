@@ -1,7 +1,9 @@
 const express = require("express");
+const cors = require("cors");
 const generateErgoNameSvg = require("./utils/generateErgoNameSvg");
 
 const app = express();
+app.use(cors());
 
 app.get("/generateSvg/raw/:ergoname", async (req, res) => {
     const { ergoname } = req.params;
