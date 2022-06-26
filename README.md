@@ -3,7 +3,13 @@
 1. `npm install`
 1. Rename `.env.template` to `.env`
     - for the time being, no values need to be updated or populated in this file
-1.  `npm start` 
+1.  `npm start`
+
+Alternatively, you can run it in docker by following these simple steps:
+1. `npm run build:docker`
+1. `npm run start:docker`
+
+To stop it, run `npm run stop:docker`. To destroy the container, run `npm run destroy:docker`.
 
 ## Endpoints
 
