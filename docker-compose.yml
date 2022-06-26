@@ -7,3 +7,5 @@ services:
     container_name: ergo-names-image-service
     ports:
       - "4020:4020"
+    env_file:
+      - .env
