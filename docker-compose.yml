@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  api:
+    image: ergo-names-image-service
+    build: .
+    container_name: ergo-names-image-service
+    ports:
+      - "4020:4020"
