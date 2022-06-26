@@ -4,7 +4,8 @@
   "description": "Simple REST API for generating on chain Ergo Names NFT images in SVG format",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "Ergo Names",
