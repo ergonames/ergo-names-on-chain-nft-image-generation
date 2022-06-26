@@ -5,7 +5,11 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "build:docker": "docker-compose build",
+    "start:docker": "docker-compose up -d",
+    "stop:docker": "docker-compose stop",
+    "destroy:docker": "docker-compose down"
   },
   "keywords": [],
   "author": "Ergo Names",
