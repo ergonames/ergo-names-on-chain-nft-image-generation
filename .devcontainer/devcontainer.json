@@ -1,0 +1,4 @@
+{
+    "name": "ErgoNames SVG Service",
+    "postCreateCommand": "/bin/bash scripts/install.sh"
+}
